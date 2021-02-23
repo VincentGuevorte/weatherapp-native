@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     paddingBottom: 40,
     alignItems: 'center',
     borderBottomWidth: 2,
-    borderBottomColor: 'rgba(128, 128, 128, 0.5)',
+    borderBottomColor: '#77B5FE',
 },
   listContainer: {
     flex:1,
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   },
   weatherInfosContainer: {
     flex:3, 
-    marginLeft: 20,
+    marginLeft: 10,
     flexDirection:'column',
   },
   weatherInfosContent: {
@@ -58,8 +58,8 @@ const styles = StyleSheet.create({
     fontSize: 20
   },
   weatherLogo: {
-    width: 60,
-    height: 60,
+    width: 70,
+    height: 70,
     padding: 10,
     marginLeft: 10
   },
@@ -67,6 +67,6 @@ const styles = StyleSheet.create({
     flex: 1, 
     textAlign:'right', 
     flexDirection: 'column', 
-    marginRight: 20
+    marginRight: 10
   }
 })

@@ -36,31 +36,31 @@ const styles = StyleSheet.create({
     header: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        backgroundColor: '#fcb131',
-        paddingTop: 60,
+        backgroundColor: '#77B5FE',
+        paddingTop: 50,
         paddingBottom: 50,
         width: '100%',
     },
     tempMax: {
-        fontSize: 30,
+        fontSize: 40,
         color: 'white',
         marginLeft: 10
     },
     tempMin: {
         fontSize: 20,
         color: 'white',
-        opacity: 0.6,
+        opacity: 0.7,
         marginLeft: 10
     },
     title: {
-        fontSize: 20,
+        fontSize: 25,
         color: 'white',
         textTransform: 'capitalize'
     },
     weatherLogo: {
-        width: 80,
-        height: 80,
-        marginRight: 20,
-        paddingLeft: 20
+        width: 90,
+        height: 90,
+        marginRight: 10,
+        paddingLeft: 10
       }
 })

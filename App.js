@@ -11,7 +11,7 @@ import ForecastWeather from './components/ForecastWeather';
 
 export default function App() {
   useEffect(() => {
-    axios.get('http://api.openweathermap.org/data/2.5/onecall?lat=50.633333&lon=3.066667&lang=fr&exclude=minutely,hourly,alerts&units=metric&appid=ef6e6acf960b100b476d9774b9ac20a3')
+    axios.get('http://api.openweathermap.org/data/2.5/onecall?lat=50.633333&lon=3.066667&lang=fr&exclude=minutely,hourly,alerts&units=metric&appid=0dca169c24a65db9c76f6688bbca8884')
     .then(res =>{
       setData(res.data);
     })

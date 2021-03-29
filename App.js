@@ -6,8 +6,9 @@ import {
 } from 'react-native';
 import axios from 'axios';
 import AppLoading from 'expo-app-loading';
-import CurrentWeather from './components/CurrentWeather';
 import ForecastWeather from './components/ForecastWeather';
+import CurrentWeather from './components/CurrentWeather';
+
 
 export default function App() {
   useEffect(() => {

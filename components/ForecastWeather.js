@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, ScrollView, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
 import { v4 as uuidv4 } from 'uuid';
 
 export default function ForecastWeather({data}) {
@@ -16,10 +16,10 @@ export default function ForecastWeather({data}) {
             />
             <View style={styles.weatherInfosContainer}>
               <Text style={styles.weatherInfosContent}>{new Date(item.dt * 1000).toLocaleString("fr-FR", {weekday:"long", month: 'long', day: 'numeric'})}</Text>
-              <Text  style={{flex:1, textTransform: 'capitalize'}}>{item.weather[0].description}</Text>
+              <Text style={{flex:1, textTransform: 'capitalize'}}>{item.weather[0].description}</Text>
             </View>
             <View style={styles.weatherTemp}>
-              <Text style={{fontSize: 20}}>
+              <Text style={{fontSize: 21}}>
                 {item.temp.max.toFixed(1)}°C
               </Text>
               <Text>
